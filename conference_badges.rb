@@ -21,6 +21,8 @@ end
 def printer (attendees)
   batch_badge_creator (attendees).map do |person|
     puts person
+  end
   assign_rooms (attendees).map do |person|
     puts person
+  end
 end
